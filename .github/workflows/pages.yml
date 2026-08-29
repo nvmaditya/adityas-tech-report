@@ -18,11 +18,32 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: npm
+      - name: Enable Pages if missing
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set +e
+          AUTH="Authorization: Bearer ${GITHUB_TOKEN}"
+          ACCEPT="Accept: application/vnd.github+json"
+          API="https://api.github.com/repos/${GITHUB_REPOSITORY}/pages"
+          CODE=$(curl -sS -o /tmp/pages-get.json -w "%{http_code}" -H "$AUTH" -H "$ACCEPT" "$API")
+          echo "GET /pages -> $CODE"
+          cat /tmp/pages-get.json || true
+          if [ "$CODE" = "404" ]; then
+            curl -sS -o /tmp/pages-post.json -w "\nPOST /pages -> %{http_code}\n" \
+              -X POST -H "$AUTH" -H "$ACCEPT" "$API" \
+              -d '{"build_type":"workflow"}'
+            cat /tmp/pages-post.json || true
+          fi
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - run: npm install
       - run: npm run build
         env:
           GITHUB_PAGES: "1"
+      - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
