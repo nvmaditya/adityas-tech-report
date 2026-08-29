@@ -39,6 +39,12 @@ export default async function MonthPage({ params }) {
       <p className="nav">
         <Link href="/">← All reports</Link>
       </p>
+      <footer>
+        <p>
+          Made for Aditya Khandelwal, not by. Source on{" "}
+          <a href="https://github.com/nvmaditya/adityas-tech-report">GitHub</a>.
+        </p>
+      </footer>
     </div>
   );
 }

@@ -62,7 +62,7 @@ export default function Home() {
       </main>
       <footer>
         <p>
-          Written by Aditya Khandelwal. Source on{" "}
+          Made for Aditya Khandelwal, not by. Source on{" "}
           <a href="https://github.com/nvmaditya/adityas-tech-report">GitHub</a>.
         </p>
       </footer>

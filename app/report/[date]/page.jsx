@@ -40,7 +40,8 @@ export default async function ReportPage({ params }) {
       </p>
       <footer>
         <p>
-          <a href="https://github.com/nvmaditya/adityas-tech-report">GitHub</a>
+          Made for Aditya Khandelwal, not by. Source on{" "}
+          <a href="https://github.com/nvmaditya/adityas-tech-report">GitHub</a>.
         </p>
       </footer>
     </div>
