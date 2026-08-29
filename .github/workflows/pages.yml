@@ -4,12 +4,10 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,41 +16,26 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Enable Pages if missing
-        continue-on-error: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set +e
-          AUTH="Authorization: Bearer ${GITHUB_TOKEN}"
-          ACCEPT="Accept: application/vnd.github+json"
-          API="https://api.github.com/repos/${GITHUB_REPOSITORY}/pages"
-          CODE=$(curl -sS -o /tmp/pages-get.json -w "%{http_code}" -H "$AUTH" -H "$ACCEPT" "$API")
-          echo "GET /pages -> $CODE"
-          cat /tmp/pages-get.json || true
-          if [ "$CODE" = "404" ]; then
-            curl -sS -o /tmp/pages-post.json -w "\nPOST /pages -> %{http_code}\n" \
-              -X POST -H "$AUTH" -H "$ACCEPT" "$API" \
-              -d '{"build_type":"workflow"}'
-            cat /tmp/pages-post.json || true
-          fi
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - run: npm install
+          cache: npm
+      - run: npm ci
       - run: npm run build
         env:
           GITHUB_PAGES: "1"
       - run: touch out/.nojekyll
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: out
-  deploy:
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publish to gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          WORK=/tmp/gh-pages-deploy
+          rm -rf "$WORK"
+          mkdir -p "$WORK"
+          cp -a out/. "$WORK/"
+          cd "$WORK"
+          git init -b gh-pages
+          git add -A
+          git commit -m "Deploy ${GITHUB_SHA}"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push -f origin gh-pages
