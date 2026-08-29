@@ -1,19 +1,21 @@
 # Aditya's Tech Report
 
-Eight-item daily briefing. Last twenty-four hours. AI, startups, launches, industry shifts, and the occasional take that is actually moving conversation.
+Eight-item daily briefing. React/Next.js static site.
 
-Live site (after GitHub Pages is on): https://nvmaditya.github.io/adityas-tech-report/
+Live: https://nvmaditya.github.io/adityas-tech-report/
 
-## Layout
+## Report files
 
-- `reports/YYYY-MM-DD.md` — the briefing
-- `reports/index.json` — catalog, newest first
-- `index.html` / `report.html` — blog UI
+One markdown file per day:
 
-## Publish
+```
+reports/YYYY-MM/YYYY-MM-DD.md
+```
 
-The Grok skill `aditya-tech-report` writes the markdown + catalog and pushes to `main`.
+Example: `reports/2026-08/2026-08-29.md`
 
-## Pages
+`reports/index.json` is the catalog (newest first). The site also reads every `reports/*/*.md` at build time.
 
-Settings → Pages → Source = GitHub Actions (workflow in `.github/workflows/pages.yml`). First enable may take a minute after the first successful workflow.
+## Enable GitHub Pages
+
+Repo → Settings → Pages → Source = **GitHub Actions**. Approve the `github-pages` environment on the first workflow if GitHub asks.

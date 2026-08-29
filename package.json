@@ -1,0 +1,14 @@
+{
+  "name": "adityas-tech-report",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "marked": "^15.0.0",
+    "next": "^15.5.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
