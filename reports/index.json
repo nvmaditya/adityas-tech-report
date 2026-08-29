@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "date": "2026-08-29",
+    "month": "2026-08",
+    "title": "Saturday, 29 August 2026",
+    "lede": "Model access became a contract weapon, open weights came with new fine print, and a quiet Saturday still shipped a major frontend release.",
+    "item_count": 8,
+    "tags": ["ai", "launch", "policy", "open-source"],
+    "path": "reports/2026-08/2026-08-29.md"
+  }
+]
