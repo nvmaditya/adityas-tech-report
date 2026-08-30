@@ -45,6 +45,8 @@ h1 { font-family: Newsreader, Georgia, serif; font-weight: 550; font-size: clamp
 .tag { display: inline-block; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tag); border: 1px solid var(--rule); padding: 2px 7px; margin: 0 6px 6px 0; }
 .prose h1 { display: none; }
 .prose h2 { font-family: Newsreader, Georgia, serif; font-size: 1.45rem; margin: 2.1em 0 0.4em; font-weight: 550; }
+.prose h3 { font-family: Newsreader, Georgia, serif; font-size: 1.2rem; margin: 1.6em 0 0.35em; font-weight: 550; }
+.prose hr { border: none; border-top: 1px solid var(--rule); margin: 3em 0 2em; }
 .prose p { margin: 0.6em 0; }
 .prose a { color: var(--accent); }
 .prose p:has(> img),
