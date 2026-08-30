@@ -24,18 +24,25 @@ export default function Home() {
       <main>
         {latest ? (
           <section className="latest">
-            <Link className="date" href={`/report/${latest.date}/`}>
-              Latest · {formatDisplayDate(latest.date)}
-            </Link>
-            <h2>
-              <Link href={`/report/${latest.date}/`}>{latest.title}</Link>
-            </h2>
-            <p>{latest.lede}</p>
-            <p>
-              {(latest.tags || []).map((t) => (
-                <span key={t} className="tag">{t}</span>
-              ))}
-            </p>
+            {latest.hero ? (
+              <Link href={`/report/${latest.date}/`}>
+                <img className="hero-shot" src={latest.hero} alt="" />
+              </Link>
+            ) : null}
+            <div className="latest-body">
+              <Link className="date" href={`/report/${latest.date}/`}>
+                Latest · {formatDisplayDate(latest.date)}
+              </Link>
+              <h2>
+                <Link href={`/report/${latest.date}/`}>{latest.title}</Link>
+              </h2>
+              <p>{latest.lede}</p>
+              <p>
+                {(latest.tags || []).map((t) => (
+                  <span key={t} className="tag">{t}</span>
+                ))}
+              </p>
+            </div>
           </section>
         ) : (
           <p>No reports published yet.</p>
