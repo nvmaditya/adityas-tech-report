@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-08-30",
+    "month": "2026-08",
+    "title": "Sunday, 30 August 2026",
+    "lede": "A quiet Sunday after Saturday's model and contract noise left open-source policy, mobile security hardware, and long-running Python migrations as the day's durable signals.",
+    "item_count": 8,
+    "tags": ["ai", "open-source", "security", "take"],
+    "path": "reports/2026-08/2026-08-30.md"
+  },
+  {
     "date": "2026-08-29",
     "month": "2026-08",
     "title": "Saturday, 29 August 2026",
