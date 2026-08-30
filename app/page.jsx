@@ -69,7 +69,7 @@ export default function Home() {
       </main>
       <footer>
         <p>
-          Made for Aditya Khandelwal, not by. Source on{" "}
+          Made for Aditya Khandelwal, By Grok. Source on{" "}
           <a href="https://github.com/nvmaditya/adityas-tech-report">GitHub</a>.
         </p>
       </footer>
