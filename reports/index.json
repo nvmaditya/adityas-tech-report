@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-01",
+    "month": "2026-09",
+    "title": "Tuesday, 1 September 2026",
+    "lede": "Apple handed the CEO job to a hardware engineer, the Pentagon put ChatGPT and Grok on millions of desks, and Chrome emptied the last Manifest V2 listings from its store.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "policy", "hardware", "launch", "agents"],
+    "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Pentagon_US_Department_of_Defense_building.jpg",
+    "path": "reports/2026-09/2026-09-01.md"
+  },
+  {
     "date": "2026-08-31",
     "month": "2026-08",
     "title": "Monday, 31 August 2026",
