@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-02",
+    "month": "2026-09",
+    "title": "Wednesday, 2 September 2026",
+    "lede": "Two labs split the same day into a cheaper coding model and a cyber-critical one, Fei-Fei Li’s World Labs shipped a camera-native world model, and YC’s data shop jumped an order of magnitude in five months.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "launch", "security", "startup", "agents"],
+    "hero": "https://www.worldlabs.ai/images/atlas-og.jpg",
+    "path": "reports/2026-09/2026-09-02.md"
+  },
+  {
     "date": "2026-09-01",
     "month": "2026-09",
     "title": "Tuesday, 1 September 2026",
