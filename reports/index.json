@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-03",
+    "month": "2026-09",
+    "title": "Thursday, 3 September 2026",
+    "lede": "Two workhorse models dropped on the same Wednesday, Microsoft renamed a reporting segment after agents, and a Virginia judge left Google’s ad-tech stack in one piece.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "launch", "policy", "startup", "agents"],
+    "hero": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png",
+    "path": "reports/2026-09/2026-09-03.md"
+  },
+  {
     "date": "2026-09-02",
     "month": "2026-09",
     "title": "Wednesday, 2 September 2026",
