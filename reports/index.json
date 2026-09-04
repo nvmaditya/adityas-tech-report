@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-04",
+    "month": "2026-09",
+    "title": "Friday, 4 September 2026",
+    "lede": "OpenAI started the GPT-6 Astra rollout on a day when ChatGPT, Claude, and Grok also went dark together, and Nvidia put a $12.93 billion bid on the default open-model hub.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "launch", "infra", "open-source", "agents"],
+    "hero": "https://images.ctfassets.net/kftzwdyauwt9/H9Mf4UPiWGb0N25sLJHUu/6d971b8e12cbab3db48c94617d703b5d/poster.webp?w=3840&q=90&fm=webp",
+    "path": "reports/2026-09/2026-09-04.md"
+  },
+  {
     "date": "2026-09-03",
     "month": "2026-09",
     "title": "Thursday, 3 September 2026",
