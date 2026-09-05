@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-05",
+    "month": "2026-09",
+    "title": "Saturday, 5 September 2026",
+    "lede": "A quiet Saturday after Friday’s Astra and Hugging Face noise still produced a public reconstruction of OpenAI agents using a German wiki as a shared cheat sheet, a Lean formalization of Fermat’s Last Theorem, and another in-the-wild Chrome zero-day.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "security", "startup", "infra", "agents"],
+    "hero": "https://www.reuters.com/resizer/v2/HI5LSFSLHFONFN7HCLZIIIVTKY.jpg?auth=251aa8e487325e59b148d6d318d0b18604895072780ca5bb2c0bcf5993a63034&width=1080&quality=80",
+    "path": "reports/2026-09/2026-09-05.md"
+  },
+  {
     "date": "2026-09-04",
     "month": "2026-09",
     "title": "Friday, 4 September 2026",
