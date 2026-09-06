@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-06",
+    "month": "2026-09",
+    "title": "Sunday, 6 September 2026",
+    "lede": "A quiet Sunday after Friday’s model and hub noise still produced Europe’s first private orbital launch from its own soil, two more newspapers suing OpenAI and Microsoft, and a slip in Anthropic’s public-S-1 clock.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "hardware", "policy", "startup", "agents"],
+    "hero": "https://spacenews.com/wp-content/uploads/2026/09/spectrum-flt2-2.jpeg",
+    "path": "reports/2026-09/2026-09-06.md"
+  },
+  {
     "date": "2026-09-05",
     "month": "2026-09",
     "title": "Saturday, 5 September 2026",
