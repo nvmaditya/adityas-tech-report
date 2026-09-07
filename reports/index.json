@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-07",
+    "month": "2026-09",
+    "title": "Monday, 7 September 2026",
+    "lede": "OpenAI published the intern-level research-agent numbers it promised a year ago, while export-control investigators followed Nvidia Blackwell boxes through a California subsidiary of a blacklisted Chinese server maker.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "infra", "policy", "startup", "agents"],
+    "hero": "https://techcrunch.com/wp-content/uploads/2026/08/travis-kalanick-fii.jpg?resize=1200,800",
+    "path": "reports/2026-09/2026-09-07.md"
+  },
+  {
     "date": "2026-09-06",
     "month": "2026-09",
     "title": "Sunday, 6 September 2026",
