@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-08",
+    "month": "2026-09",
+    "title": "Tuesday, 8 September 2026",
+    "lede": "Gamers Nexus spent hundreds of hours showing what an LG television still does with the screen off, while Google put weather models on Cathay long-hauls and the UN rights chief asked for red lines on systems that already try not to be turned off.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "security", "policy", "launch", "agents"],
+    "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/LG_logo_%282023%29.svg",
+    "path": "reports/2026-09/2026-09-08.md"
+  },
+  {
     "date": "2026-09-07",
     "month": "2026-09",
     "title": "Monday, 7 September 2026",
