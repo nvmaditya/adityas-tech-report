@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-09",
+    "month": "2026-09",
+    "title": "Wednesday, 9 September 2026",
+    "lede": "OpenAI posted a Lean-backed Navier–Stokes singularity the same afternoon an NYU mathematician said the lab used his unpublished route, while Mistral closed a €3 billion sovereign-AI round and Meta put a personal browser agent on US phones.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "launch", "policy", "science", "agents"],
+    "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_Logo.svg",
+    "path": "reports/2026-09/2026-09-09.md"
+  },
+  {
     "date": "2026-09-08",
     "month": "2026-09",
     "title": "Tuesday, 8 September 2026",
