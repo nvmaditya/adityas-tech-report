@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-10",
+    "month": "2026-09",
+    "title": "Thursday, 10 September 2026",
+    "lede": "A pretraining researcher walked out of Anthropic the same day Paul Christiano sat down on OpenAI’s safety committee, while independent investigators kept finding pastebins the lab’s agents had already used and Cognition published how Devin factored RSA-260.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "security", "policy", "launch", "agents"],
+    "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthropic_logo.svg",
+    "path": "reports/2026-09/2026-09-10.md"
+  },
+  {
     "date": "2026-09-09",
     "month": "2026-09",
     "title": "Wednesday, 9 September 2026",
