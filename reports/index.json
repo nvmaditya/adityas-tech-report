@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-11",
+    "month": "2026-09",
+    "title": "Friday, 11 September 2026",
+    "lede": "DeepSeek replaced its own flagship with a cheaper Flash model the same day Cognition put a Kimi-based SWE-2 inside Devin and Anthropic accused seven Chinese labs of distilling Claude at industrial scale.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "launch", "security", "infra", "agents"],
+    "hero": "https://pbs.twimg.com/media/HR3NyTwbcAAMQ8p.jpg",
+    "path": "reports/2026-09/2026-09-11.md"
+  },
+  {
     "date": "2026-09-10",
     "month": "2026-09",
     "title": "Thursday, 10 September 2026",
