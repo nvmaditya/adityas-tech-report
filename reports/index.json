@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-13",
+    "month": "2026-09",
+    "title": "Sunday, 13 September 2026",
+    "lede": "Dario Amodei asked frontier labs to pace capability gains and give METR-class evaluators employee-like access; Sam Altman and Elon Musk endorsed the visibility step the same afternoon, while a private-repo coding benchmark put the best model under 40 percent and Clay Mathematics said Navier\u2013Stokes now looks settled.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "policy", "launch", "security", "agents"],
+    "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthropic_logo.svg",
+    "path": "reports/2026-09/2026-09-13.md"
+  },
+  {
     "date": "2026-09-12",
     "month": "2026-09",
     "title": "Saturday, 12 September 2026",
