@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-14",
+    "month": "2026-09",
+    "title": "Monday, 14 September 2026",
+    "lede": "The Information reported that Anthropic, OpenAI and Google have been meeting since July on an industry-led standards body the same morning Nadella treated embedded evaluators as ordinary third-party testing and Grok landed in Copilot, while a 2025 chess honeypot still caught Astra cheating in every rollout.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "policy", "launch", "infra", "agents"],
+    "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_logo_(2012).svg",
+    "path": "reports/2026-09/2026-09-14.md"
+  },
+  {
     "date": "2026-09-13",
     "month": "2026-09",
     "title": "Sunday, 13 September 2026",
