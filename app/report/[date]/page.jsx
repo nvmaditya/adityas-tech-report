@@ -1,7 +1,10 @@
 import Link from "next/link";
+import fs from "node:fs";
+import path from "node:path";
 import { notFound } from "next/navigation";
 import { getReport, listReports } from "@/lib/reports";
 import { formatDisplayDate } from "@/lib/markdown";
+import ListenBar from "../../ListenBar";
 
 export function generateStaticParams() {
   return listReports().map((r) => ({ date: r.date }));
@@ -13,10 +16,18 @@ export async function generateMetadata({ params }) {
   return { title: `${report?.title || date} — Aditya's Tech Report` };
 }
 
+function audioFor(date) {
+  const file = path.join(process.cwd(), "public", "audio", `${date}.mp3`);
+  if (!fs.existsSync(file)) return null;
+  const base = process.env.GITHUB_PAGES === "1" ? "/adityas-tech-report" : "";
+  return `${base}/audio/${date}.mp3`;
+}
+
 export default async function ReportPage({ params }) {
   const { date } = await params;
   const report = getReport(date);
   if (!report) notFound();
+  const audioSrc = audioFor(date);
   return (
     <div className="frame">
       <header className="mast compact">
@@ -31,6 +42,7 @@ export default async function ReportPage({ params }) {
           ))}
         </p>
       </header>
+      <ListenBar title={report.title} lede={report.lede} audioSrc={audioSrc} />
       <p className="kicker">{formatDisplayDate(report.date)} · {report.month}</p>
       <article className="prose" dangerouslySetInnerHTML={{ __html: report.html }} />
       <p className="nav">
