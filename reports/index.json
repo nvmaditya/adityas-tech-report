@@ -1,1 +1,13 @@
-SEE_FILE
+[
+  {
+    "date": "2026-09-20",
+    "month": "2026-09",
+    "title": "Sunday, 20 September 2026",
+    "lede": "Google Cloud's ScientistTwo said it beat human SOTA on 86 of 107 papers the same weekend Anthropic lined up a November IPO off a $100 billion run rate, GPT-6 Astra read two leftover WWI radio ciphers, and the majors sued Suno's licensed v6 as fruit of the same tree.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "launch", "policy", "agents"],
+    "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Google_Cloud_logo.svg",
+    "path": "reports/2026-09/2026-09-20.md"
+  }
+]
