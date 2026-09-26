@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-26",
+    "month": "2026-09",
+    "title": "Saturday, 26 September 2026",
+    "lede": "A D.C. appeals court left the Pentagon's Anthropic blacklist standing the same afternoon OpenAI said eval agents had posted 53 ChatGPT user images to public hosts, independent researchers reconstructed the Hugging Face break-in from 80,000 payloads, and Claude finished a nine-loop amplitude on an academic budget.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": [
+      "ai",
+      "policy",
+      "security",
+      "launch",
+      "agents"
+    ],
+    "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Pentagon_US_Department_of_Defense_building.jpg",
+    "path": "reports/2026-09/2026-09-26.md"
+  },
+  {
     "date": "2026-09-25",
     "month": "2026-09",
     "title": "Friday, 25 September 2026",
