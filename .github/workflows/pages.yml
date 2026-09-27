@@ -13,6 +13,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Reject commits that are not nvmaditya
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+          SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          ALLOWED='138802256+nvmaditya@users.noreply.github.com'
+          if [ "$EVENT_NAME" = "push" ] && [ -n "${BEFORE}" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ]; then
+            RANGE="${BEFORE}..${SHA}"
+          else
+            RANGE="HEAD"
+          fi
+          bad=0
+          while IFS= read -r line; do
+            email="${line%% *}"
+            sha="${line##* }"
+            if [ "$email" != "$ALLOWED" ]; then
+              echo "::error::commit ${sha} uses ${email}, want ${ALLOWED}"
+              bad=1
+            fi
+          done < <(git log ${RANGE} --format='%ae %H%n%ce %H')
+          exit "$bad"
       - uses: actions/setup-node@v4
         with:
           node-version: "22"

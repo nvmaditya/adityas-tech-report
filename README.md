@@ -22,4 +22,6 @@ Every report page has a Listen bar. It uses the browser's best English neural vo
 
 ## Deploy
 
-Every push to `main` builds the Next.js export and force-pushes it to the `gh-pages` branch. GitHub Pages serves that branch.
+Every push to `main` builds the Next.js export and force-pushes it to the `gh-pages` branch. GitHub Pages serves that branch. The workflow refuses to deploy if the new commit's author or committer is not `Aditya Khandelwal <138802256+nvmaditya@users.noreply.github.com>`.
+
+Do not publish commits through the GitHub contents API. That path has attributed commits to the unrelated account `aditya` by writing `aditya@users.noreply.github.com`. Use a normal git commit with the address above, then `git push`.
