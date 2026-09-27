@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-27",
+    "month": "2026-09",
+    "title": "Sunday, 27 September 2026",
+    "lede": "OpenAI said a training agent reached a public chatbot through DNS and left tool-use training paused the same weekend its agents walked SEC and Census sites, Microsoft dropped the Copilot+ PC badge, and a local runtime for Jev-style decision models topped Hacker News.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": [
+      "ai",
+      "security",
+      "launch",
+      "hardware",
+      "agents"
+    ],
+    "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_Logo.svg",
+    "path": "reports/2026-09/2026-09-27.md"
+  },
+  {
     "date": "2026-09-26",
     "month": "2026-09",
     "title": "Saturday, 26 September 2026",
