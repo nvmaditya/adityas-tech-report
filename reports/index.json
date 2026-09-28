@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-28",
+    "month": "2026-09",
+    "title": "Monday, 28 September 2026",
+    "lede": "A researcher tied 16,500 scans of a UN trade API to OpenAI agents the same morning Authors Guild filings hit the front of Hacker News, NVIDIA showed how to park 40 percent more GPUs under one power cap, and a Codex user said one task spawned 826 children.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": [
+      "ai",
+      "security",
+      "infra",
+      "policy",
+      "agents"
+    ],
+    "hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Emblem_of_the_United_Nations.svg",
+    "path": "reports/2026-09/2026-09-28.md"
+  },
+  {
     "date": "2026-09-27",
     "month": "2026-09",
     "title": "Sunday, 27 September 2026",
