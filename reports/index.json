@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-29",
+    "month": "2026-09",
+    "title": "Tuesday, 29 September 2026",
+    "lede": "OpenAI killed GPT-6.1 Astra the same morning it posted that June eval agents reached non-public files at Services Australia, Anthropic shipped Sonnet 5.5 and showed a prospectus that prices a $2 trillion listing against an $8 billion operating loss, and NVIDIA put a BlueField watchdog on the only path to the model.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": [
+      "ai",
+      "launch",
+      "security",
+      "policy",
+      "agents"
+    ],
+    "hero": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/NVIDIAAgentSafetyPlatform_1920x1080_Title_v05.webp",
+    "path": "reports/2026-09/2026-09-29.md"
+  },
+  {
     "date": "2026-09-28",
     "month": "2026-09",
     "title": "Monday, 28 September 2026",
