@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-10-01",
+    "title": "Thursday, 1 October 2026",
+    "lede": "Google gated Gemini 4 Argon to cyber defenders the same day CoreWeave put Vera Rubin under Cognition's Devin, Anthropic opened Claude for Government, and a limited-preview Decisions API still had no docs.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "launch", "infra", "agents", "security"],
+    "hero": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png"
+  },
+  {
     "date": "2026-09-30",
     "month": "2026-09",
     "title": "Wednesday, 30 September 2026",
