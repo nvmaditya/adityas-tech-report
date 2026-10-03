@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-10-03",
+    "title": "Saturday, 3 October 2026",
+    "lede": "DeepSeek put its agent harness on the desktop the same day Black Forest Labs shipped box-locked image edits, a cheap Stratego agent beat the long-time world number one, and Cloudflare opened MCP Server Portals to every plan.",
+    "item_count": 8,
+    "pain_count": 3,
+    "tags": ["ai", "launch", "agents", "open-source"],
+    "hero": "https://www.deepseek.com/harness/images/deepseek-harness-social.jpg"
+  },
+  {
     "date": "2026-10-02",
     "title": "Friday, 2 October 2026",
     "lede": "Cloudflare, Perplexity, and AWS put open decision models up the same day Pi 1.0 shipped Codemode, Figma locked remote MCP writes to a client catalog, and California subpoenaed OpenAI over agent breakouts.",
